@@ -1857,3 +1857,80 @@ limit 500
 2023-05-11 19:42:42.222250 (Thread-251): handling status request
 2023-05-11 19:42:42.223973 (Thread-251): 19:42:42  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1165f1fb-1ed0-4b1a-bef1-7cb7359dd080', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc94e283f70>]}
 2023-05-11 19:42:42.224522 (Thread-251): sending response (<Response 1625 bytes [200 OK]>) to 10.0.208.50
+2023-05-11 19:43:16.587243 (Thread-252): handling reload request
+2023-05-11 19:43:16.587774 (Thread-252): 19:43:16  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1165f1fb-1ed0-4b1a-bef1-7cb7359dd080', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc94e2831f0>]}
+2023-05-11 19:43:16.588278 (Thread-252): sending response (<Response 62 bytes [200 OK]>) to 10.0.208.50
+2023-05-11 19:43:16.620675 (Thread-253): 19:43:16  checksum: 0049c9ca814b191acba678e7b1a0d7a85eeac3e13700309cfc1ce1a2c78d3886, vars: {}, profile: user, target: None, version: 1.4.6
+2023-05-11 19:43:16.633945 (Thread-253): 19:43:16  Unable to do partial parsing because config vars, config profile, or config target have changed
+2023-05-11 19:43:16.634347 (Thread-253): 19:43:16  previous checksum: 0325e47f1211ebbdb24627f81d8289d705fdb573380364d07ab35982cb3d57cd, current checksum: 0049c9ca814b191acba678e7b1a0d7a85eeac3e13700309cfc1ce1a2c78d3886
+2023-05-11 19:43:16.634609 (Thread-253): 19:43:16  Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '1165f1fb-1ed0-4b1a-bef1-7cb7359dd080', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc94e283640>]}
+2023-05-11 19:43:16.904302 (Thread-254): handling status request
+2023-05-11 19:43:16.925212 (Thread-254): 19:43:16  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1165f1fb-1ed0-4b1a-bef1-7cb7359dd080', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc955b51100>]}
+2023-05-11 19:43:16.930907 (Thread-254): sending response (<Response 164 bytes [200 OK]>) to 10.0.208.50
+2023-05-11 19:43:17.345121 (Thread-253): 19:43:17  1699: static parser successfully parsed example/my_second_dbt_model.sql
+2023-05-11 19:43:17.348548 (Thread-253): 19:43:17  1699: static parser successfully parsed example/my_first_dbt_model.sql
+2023-05-11 19:43:17.351856 (Thread-253): 19:43:17  1699: static parser successfully parsed shop_example/stg_customers.sql
+2023-05-11 19:43:17.354913 (Thread-253): 19:43:17  1699: static parser successfully parsed shop_example/stg_orders.sql
+2023-05-11 19:43:17.358347 (Thread-253): 19:43:17  1699: static parser successfully parsed shop_example/customers.sql
+2023-05-11 19:43:17.505923 (Thread-253): 19:43:17  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '1165f1fb-1ed0-4b1a-bef1-7cb7359dd080', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc958316df0>]}
+2023-05-11 19:43:17.773649 (Thread-255): handling status request
+2023-05-11 19:43:17.774178 (Thread-255): 19:43:17  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1165f1fb-1ed0-4b1a-bef1-7cb7359dd080', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc9532c49a0>]}
+2023-05-11 19:43:17.774802 (Thread-255): sending response (<Response 3738 bytes [200 OK]>) to 10.0.208.50
+2023-05-11 19:43:47.662702 (Thread-256): handling status request
+2023-05-11 19:43:47.663286 (Thread-256): 19:43:47  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1165f1fb-1ed0-4b1a-bef1-7cb7359dd080', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc94e27efa0>]}
+2023-05-11 19:43:47.663905 (Thread-256): sending response (<Response 3738 bytes [200 OK]>) to 10.0.208.50
+2023-05-11 19:43:51.171919 (Thread-257): handling status request
+2023-05-11 19:43:51.172484 (Thread-257): 19:43:51  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1165f1fb-1ed0-4b1a-bef1-7cb7359dd080', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc958316df0>]}
+2023-05-11 19:43:51.173065 (Thread-257): sending response (<Response 3738 bytes [200 OK]>) to 10.0.208.50
+2023-05-11 19:44:06.440685 (Thread-258): handling status request
+2023-05-11 19:44:06.441218 (Thread-258): 19:44:06  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1165f1fb-1ed0-4b1a-bef1-7cb7359dd080', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc9532c4340>]}
+2023-05-11 19:44:06.441828 (Thread-258): sending response (<Response 3738 bytes [200 OK]>) to 10.0.208.50
+2023-05-11 19:44:11.495077 (Thread-259): handling status request
+2023-05-11 19:44:11.495603 (Thread-259): 19:44:11  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1165f1fb-1ed0-4b1a-bef1-7cb7359dd080', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc9532c4490>]}
+2023-05-11 19:44:11.496181 (Thread-259): sending response (<Response 3738 bytes [200 OK]>) to 10.0.208.50
+2023-05-11 19:44:11.501826 (Thread-260): handling list request
+2023-05-11 19:44:11.502257 (Thread-260): 19:44:11  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1165f1fb-1ed0-4b1a-bef1-7cb7359dd080', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc95ab730d0>]}
+2023-05-11 19:44:11.536346 (Thread-260): 19:44:11  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '1165f1fb-1ed0-4b1a-bef1-7cb7359dd080', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc94e27efa0>]}
+2023-05-11 19:44:11.537043 (Thread-260): 19:44:11  Found 5 models, 13 tests, 0 snapshots, 0 analyses, 337 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2023-05-11 19:44:11.537478 (Thread-260): 19:44:11  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '1165f1fb-1ed0-4b1a-bef1-7cb7359dd080', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc950a99940>]}
+2023-05-11 19:44:11.540778 (Thread-260): sending response (<Response 8777 bytes [200 OK]>) to 10.0.208.50
+2023-05-11 19:44:17.729379 (Thread-261): handling reload request
+2023-05-11 19:44:17.729902 (Thread-261): 19:44:17  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1165f1fb-1ed0-4b1a-bef1-7cb7359dd080', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc9532c4040>]}
+2023-05-11 19:44:17.730411 (Thread-261): sending response (<Response 62 bytes [200 OK]>) to 10.0.208.50
+2023-05-11 19:44:17.765368 (Thread-262): 19:44:17  checksum: 0049c9ca814b191acba678e7b1a0d7a85eeac3e13700309cfc1ce1a2c78d3886, vars: {}, profile: user, target: None, version: 1.4.6
+2023-05-11 19:44:17.846152 (Thread-262): 19:44:17  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2023-05-11 19:44:17.846953 (Thread-262): 19:44:17  Partial parsing: updated file: gcp_data_platform://dbt/models/shop_example/schema.yaml
+2023-05-11 19:44:17.853411 (Thread-262): 19:44:17  1699: static parser successfully parsed shop_example/customers.sql
+2023-05-11 19:44:17.913604 (Thread-262): 19:44:17  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '1165f1fb-1ed0-4b1a-bef1-7cb7359dd080', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc95ab69280>]}
+2023-05-11 19:44:18.051713 (Thread-263): handling status request
+2023-05-11 19:44:18.052332 (Thread-263): 19:44:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1165f1fb-1ed0-4b1a-bef1-7cb7359dd080', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc955a6d3d0>]}
+2023-05-11 19:44:18.052905 (Thread-263): sending response (<Response 1934 bytes [200 OK]>) to 10.0.208.50
+2023-05-11 19:44:55.018935 (Thread-264): handling status request
+2023-05-11 19:44:55.019471 (Thread-264): 19:44:55  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1165f1fb-1ed0-4b1a-bef1-7cb7359dd080', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc94e31afd0>]}
+2023-05-11 19:44:55.020010 (Thread-264): sending response (<Response 1934 bytes [200 OK]>) to 10.0.208.50
+2023-05-11 19:45:21.627948 (Thread-265): handling reload request
+2023-05-11 19:45:21.629629 (Thread-265): 19:45:21  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1165f1fb-1ed0-4b1a-bef1-7cb7359dd080', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc94e31a2b0>]}
+2023-05-11 19:45:21.630118 (Thread-265): sending response (<Response 62 bytes [200 OK]>) to 10.0.208.50
+2023-05-11 19:45:21.662690 (Thread-266): 19:45:21  checksum: 0049c9ca814b191acba678e7b1a0d7a85eeac3e13700309cfc1ce1a2c78d3886, vars: {}, profile: user, target: None, version: 1.4.6
+2023-05-11 19:45:21.733448 (Thread-266): 19:45:21  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2023-05-11 19:45:21.734284 (Thread-266): 19:45:21  Partial parsing: updated file: gcp_data_platform://dbt/models/shop_example/schema.yaml
+2023-05-11 19:45:21.741150 (Thread-266): 19:45:21  1699: static parser successfully parsed shop_example/stg_orders.sql
+2023-05-11 19:45:21.744392 (Thread-266): 19:45:21  1699: static parser successfully parsed shop_example/stg_customers.sql
+2023-05-11 19:45:21.747854 (Thread-266): 19:45:21  1699: static parser successfully parsed shop_example/customers.sql
+2023-05-11 19:45:21.824970 (Thread-266): 19:45:21  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '1165f1fb-1ed0-4b1a-bef1-7cb7359dd080', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc9509c9ee0>]}
+2023-05-11 19:45:21.984250 (Thread-267): handling status request
+2023-05-11 19:45:21.984776 (Thread-267): 19:45:21  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1165f1fb-1ed0-4b1a-bef1-7cb7359dd080', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc955a942b0>]}
+2023-05-11 19:45:21.985350 (Thread-267): sending response (<Response 2557 bytes [200 OK]>) to 10.0.208.50
+2023-05-11 19:46:28.068880 (Thread-268): handling status request
+2023-05-11 19:46:28.070634 (Thread-268): 19:46:28  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1165f1fb-1ed0-4b1a-bef1-7cb7359dd080', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc950b27340>]}
+2023-05-11 19:46:28.071242 (Thread-268): sending response (<Response 2557 bytes [200 OK]>) to 10.0.208.50
+2023-05-11 19:46:38.414314 (Thread-269): handling reload request
+2023-05-11 19:46:38.414853 (Thread-269): 19:46:38  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1165f1fb-1ed0-4b1a-bef1-7cb7359dd080', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc950b27250>]}
+2023-05-11 19:46:38.415335 (Thread-269): sending response (<Response 62 bytes [200 OK]>) to 10.0.208.50
+2023-05-11 19:46:38.447754 (Thread-270): 19:46:38  checksum: 0049c9ca814b191acba678e7b1a0d7a85eeac3e13700309cfc1ce1a2c78d3886, vars: {}, profile: user, target: None, version: 1.4.6
+2023-05-11 19:46:38.525860 (Thread-270): 19:46:38  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2023-05-11 19:46:38.526427 (Thread-270): 19:46:38  Partial parsing: updated file: gcp_data_platform://dbt/models/shop_example/schema.yaml
+2023-05-11 19:46:38.577624 (Thread-270): 19:46:38  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '1165f1fb-1ed0-4b1a-bef1-7cb7359dd080', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc94e1f5370>]}
+2023-05-11 19:46:38.743789 (Thread-271): handling status request
+2023-05-11 19:46:38.744317 (Thread-271): 19:46:38  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1165f1fb-1ed0-4b1a-bef1-7cb7359dd080', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc94e30e7c0>]}
+2023-05-11 19:46:38.744845 (Thread-271): sending response (<Response 1625 bytes [200 OK]>) to 10.0.208.50
